@@ -28,7 +28,8 @@
 		}
 	}
 
-	label {
+	label,
+        legend {
 		color: _palette(fg-bold);
 		display: block;
 		font-family: _font(family-heading);
