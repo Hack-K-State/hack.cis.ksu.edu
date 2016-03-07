@@ -26,7 +26,31 @@
 		> :last-child {
 			margin-bottom: 0;
 		}
+                height: auto;
+                -webkit-transition: height 0.8s;
+                -moz-transition: height 0.8s;
+                transition: height 0.8s;
 	}
+
+        .finished{
+          height: 0px;
+        }
+
+        .successMessage{
+          background: #A5C663;
+          border: solid 2px #567714;
+          color: black;
+          padding: 0.7rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          opacity: 0;
+          -webkit-transition: opacity 0.2s;
+          -moz-transition: opacity 0.2;
+          transition: opacity 0.2s;
+          &.active{
+            opacity: 1;
+          }
+        }
 
 	fieldset {
 		padding-top: 2rem;
