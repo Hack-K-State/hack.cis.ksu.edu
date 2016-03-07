@@ -201,6 +201,7 @@
                 <ul class="actions">
                   <li><input type="submit" value="Sign Up" /></li>
                 </ul>
+                <div class="success">Thanks for signing up!</div>
               </form>
 
 <!--              <div class="successMessage">
@@ -245,8 +246,7 @@ $('#signup').submit(function(e){
     type: 'post',
     data: $('#signup').serialize(),
     success: function(data){
-      $('#signup').addClass('finished');
-      $('#successMessage').addClass('active');
+      $('.success').addClass('active');
     }
   });
 });

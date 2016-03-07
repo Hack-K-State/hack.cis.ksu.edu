@@ -32,13 +32,10 @@
                 transition: height 0.8s;
 	}
 
-        .finished{
-          height: 0px;
-        }
 
-        .successMessage{
-          background: #A5C663;
-          border: solid 2px #567714;
+        .success{
+          background: lighten(#567714, 10%);
+          border: solid 2px #365710;
           color: black;
           padding: 0.7rem;
           margin-top: 1rem;
@@ -47,6 +44,7 @@
           -webkit-transition: opacity 0.2s;
           -moz-transition: opacity 0.2;
           transition: opacity 0.2s;
+          border-radius: 3px;
           &.active{
             opacity: 1;
           }
