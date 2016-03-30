@@ -28,7 +28,8 @@
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
-
+			position: absolute;
+			left: 11rem;
 			a {
 				border: 0;
 			}
@@ -42,7 +43,7 @@
 			letter-spacing: _font(kern-heading);
 			line-height: 3em;
 			position: absolute;
-			right: 0.7em;
+			left: 0.7em;
 			text-transform: uppercase;
 			top: 0.7em;
 
@@ -93,7 +94,7 @@
 
 			nav {
 				top: 0;
-				right: 0;
+				left: 0;
 				height: inherit;
 				line-height: inherit;
 
