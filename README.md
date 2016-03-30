@@ -4,9 +4,9 @@
 
 Have the Ruby sass gem installed in your environemnt.  On CIS department, resources, you must install it to your home directory without sudo/root.
 
-Run the shell script in .../htdocs/assets/compile_scss.sh
+Run the shell script in `assets/compile_scss.sh`
 
-Credits:
+## Credits
 
 	Demo Images:
 		Unsplash (unsplash.com)
