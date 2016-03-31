@@ -15,3 +15,13 @@
 - [x] Make a PDF of the schedule
 - [x] Upload that PDF to the MLH Organizer Dashboard
 - [x] Also, add that PDF to the Github repo for the website, and make the "Learn More" link on the website point to that PDF.
+
+## Departmental Promotion (Blocked by Signup progress)
+- [ ] Create email to send to the department 
+- [ ] Create and send out volunteer list
+
+## Misc
+- [ ] Confirm MDC COE Funding
+- [ ] Complete ( and frequently update ) Devpost page
+- [ ] Reserve tables and whiteboards
+
