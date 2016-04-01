@@ -11,6 +11,7 @@
 - [ ] Get logos from all sponsors
   - [ ] Tradebot
   - [ ] Thunderhead
+  - [ ] Homebase
   - [ ] All MLH Affiliated Sponsors
   - Everyone else
 
@@ -19,3 +20,4 @@
 - [ ] Get synced up with Shy from MLH about getting us officially listed on the site.
 - [ ] Take photographs of the venue for the MLH site
 - [ ] Coordinate theme of competition and communicate details of expo times/presentation times with sponsors
+- [ ] Update room reservations  
