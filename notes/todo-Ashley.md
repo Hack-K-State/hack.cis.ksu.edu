@@ -25,4 +25,5 @@
 - [ ] Complete ( and frequently update ) Devpost page
 - [ ] Reserve tables and whiteboards
 - [ ] Talk to Classes 
+- [ ] Order MDC Sponsored Prizes
 
