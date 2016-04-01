@@ -24,4 +24,5 @@
 - [ ] Confirm MDC COE Funding
 - [ ] Complete ( and frequently update ) Devpost page
 - [ ] Reserve tables and whiteboards
+- [ ] Talk to Classes 
 
