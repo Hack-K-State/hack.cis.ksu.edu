@@ -19,11 +19,11 @@
 ## Departmental Promotion (Blocked by Signup progress)
 - [ ] Create email to send to the department 
 - [ ] Create and send out volunteer list
+- [ ] Talk to Classes 
 
 ## Misc
 - [ ] Confirm MDC COE Funding
 - [ ] Complete ( and frequently update ) Devpost page
 - [ ] Reserve whiteboards
-- [ ] Talk to Classes 
 - [ ] Order MDC Sponsored Prizes
 
