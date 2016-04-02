@@ -2,16 +2,18 @@
 
 ## In the MLH Organizer Dashboard
 
-- [ ] Upload a document/image which proves we have the venue reserved
+- [x] Upload a document/image which proves we have the venue reserved
 
 ## Website/Signup
 
 - [ ] Work with the creator of Nucleus to get our instance up and running
 - [ ] Contact Seth et. al. to have the DNS pointed at the Nucleus server.
 - [ ] Get logos from all sponsors
-  - [ ] Tradebot
-  - [ ] Thunderhead
-  - [ ] Homebase
+  - [x] Tradebot
+  - [x] Thunderhead
+  - [x] Homebase
+  - [ ] Garmin (Alex emailed)
+  - [ ] Radina's (Ashley working on)
   - [ ] All MLH Affiliated Sponsors
   - Everyone else
 
