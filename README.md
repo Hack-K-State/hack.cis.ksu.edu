@@ -8,6 +8,7 @@ Run the shell script in `assets/compile_scss.sh`
 
 ## Credits
 
+
 	Demo Images:
 		Unsplash (unsplash.com)
 
