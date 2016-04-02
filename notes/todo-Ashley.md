@@ -7,7 +7,7 @@
 - [x] Contact facilities and get loading dock/shipping info
 - [x] Under "Choose Addons", select "Hardware Lab" (Dependent on shipping info above)
 - [x] Under "Pre-Event Shipping" define what medals are requested from MLH.  (Overall + categories)
-- [ ] Formalize a budget and enter it into the "Budget" section
+- [x] Formalize a budget and enter it into the "Budget" section
 
 ## Schedule
 
@@ -23,7 +23,7 @@
 ## Misc
 - [ ] Confirm MDC COE Funding
 - [ ] Complete ( and frequently update ) Devpost page
-- [ ] Reserve tables and whiteboards
+- [ ] Reserve whiteboards
 - [ ] Talk to Classes 
 - [ ] Order MDC Sponsored Prizes
 

@@ -1,4 +1,5 @@
 # Tasks for Eric
 
 - [ ] Reserve Tables
-- [ ] Get 'proof of venue
+- [x] Get 'proof of venue'
+- [ ] Fill out facilites form

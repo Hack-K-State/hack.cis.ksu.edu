@@ -2,4 +2,4 @@
 
 - [ ] MDC Logo
 - [ ] Hackathon Poster/Digital Signage 
-- [ ] Open House Poster
+- [ ] MDC Open House Poster
