@@ -24,3 +24,14 @@
   max-width: 350px;
   vertical-align: middle;
 }
+
+@media screen and (max-width: 736px) {
+  .partner {
+    max-width: 100%;
+  }
+
+  .sponsor {
+    max-width: 100%;
+    margin: 20px 0 20px 0;
+  }
+}
