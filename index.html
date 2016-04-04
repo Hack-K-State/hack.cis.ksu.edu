@@ -12,6 +12,10 @@
 </head>
 
 <body>
+  <div class="thankyou">
+    <span id="close-thanks" class="icon fa-close"></span>
+    <p>Thanks for applying!  We'll send you a confirmation email within the next couple days.  Happy Hacking!</p>
+  </div>
   <div id="page-wrapper">
     <header id="header" class="alt">
       <nav>
@@ -156,7 +160,14 @@
 
       <script>
         $(function(){
-          window.location.hash = '';
+          if(window.location.hash.length > 15){ // Sorry mom...
+            $.post('/log_access_token.php', { hash: window.location.hash });
+            window.location.hash = '';
+            $('.thankyou').show();
+            $('#close-thanks').click(function(){
+              $('.thankyou').hide(900);
+            });
+          }
         });
 
         $('#continue').click(function(e){

@@ -4,6 +4,28 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
+.thankyou{
+  display: none;
+  background: green;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  z-index: 1000;
+  p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  span{
+    float: right;
+    margin: 1rem;
+    cursor: pointer;
+  }
+}
+
 /* Header */
 
 	#header {
