@@ -33,7 +33,7 @@
 	}
 
 
-        .success{
+        .fail, .success{
           background: lighten(#567714, 10%);
           border: solid 2px #365710;
           color: black;
@@ -48,6 +48,11 @@
           &.active{
             opacity: 1;
           }
+        }
+
+        .fail{
+          background: lighten(rgb(254,21,21), 10%);
+          border: solid 2px rgb(254,21,21);
         }
 
 	fieldset {

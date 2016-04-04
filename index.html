@@ -26,8 +26,8 @@
       <div class="inner">
         <h2>Menu</h2>
         <ul class="links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#signup">Sign Up</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#signup">Sign Up</a></li>
         </ul>
         <a href="#" class="close">Close</a>
       </div>
@@ -38,6 +38,7 @@
         <div class="logo"><span class="icon fa-code-fork"></span></div>
         <h2>Hack K-State</h2>
         <p>April 29th - May 1st</p>
+        <a class="special" href="#signup">Sign Up</a>
       </div>
     </section>
 
@@ -100,73 +101,13 @@
       <!-- Footer -->
       <section id="footer">
         <div class="inner" id="signup">
-          <h2 class="major">Sign up a team!</h2>
-          <p>Teams can consist of up to 4 people. If you want to sign up but are looking for team members, check the box for that below.</p>
-          <form method="post" action="/signups.php" id="signupForm">
-
+          <h2 class="major">Sign Up!</h2>
+          <p>While you must sign up individually, you may form teams with other participants of up to 4 people.  Also, let us know about any special dietary needs on the following signup form.</p>
+          
+          <div id="form">
             <div class="field">
-              <label for="name">Team Name</label>
-              <input type="text" name="name" id="team-name" />
-            </div>
-            <div class="field">
-              <input type="checkbox" name="arrange" id="arrange">
-              <label for="arrange">I'm looking for team members</label>
-            </div>
-            <fieldset>
-              <legend>Team Member 1</legend>
-              <div class="field">
-                <label for="name1">Name</label>
-                <input type="text" name="name1" id="name1" />
-              </div>
-              <div class="field">
-                <label for="email1">Email</label>
-                <input type="email" name="email1" id="email1" />
-              </div>
-            </fieldset>
-            <hr>
-            <fieldset>
-              <legend>Team Member 2</legend>
-              <div class="field">
-                <label for="name2">Name</label>
-                <input type="text" name="name2" id="name2" />
-              </div>
-              <div class="field">
-                <label for="email2">Email</label>
-                <input type="email" name="email2" id="email2" />
-              </div>
-            </fieldset>
-            <hr>
-            <fieldset>
-              <legend>Team Member 3</legend>
-              <div class="field">
-                <label for="name3">Name</label>
-                <input type="text" name="name3" id="name3" />
-              </div>
-              <div class="field">
-                <label for="email3">Email</label>
-                <input type="email" name="email3" id="email3" />
-              </div>
-            </fieldset>
-            <hr>
-            <fieldset>
-              <legend>Team Member 4</legend>
-              <div class="field">
-                <label for="name4">Name</label>
-                <input type="text" name="name4" id="name4" />
-              </div>
-              <div class="field">
-                <label for="email4">Email</label>
-                <input type="email" name="email4" id="email4" />
-              </div>
-            </fieldset>
-            <hr>
-            <div class="field">
-              <label for="allergies">Any food allergies or dietary needs?</label>
-              <textarea name="allergies" id="allergies" rows="4"></textarea>
-            </div>
-            <div class="field">
-              <input type="checkbox" name="codeOfConduct" id="codeOfConduct" required="true">
-              <label for="codeOfConduct">I agree with the <a target="_blank" href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</a></label>
+              <input type="checkbox" name="codeOfConduct" id="codeOfConduct">
+              <label id="cocLabel" for="codeOfConduct">I agree with the <a target="_blank" href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</a></label>
             </div>
 
             <p>
@@ -176,11 +117,13 @@
 
             <ul class="actions">
               <li>
-                <input type="submit" value="Sign Up" />
+                <a id="continue" class="button" href="https://my.mlh.io/oauth/authorize?client_id=04d3af7d9f6999b90776b3b1ddcc8e5e337dbcaa7cbd0bf038ae947cfe7aaba7&redirect_uri=http%3A%2F%2Fhack.cis.ksu.edu%2F&response_type=token">Continue to Sign Up</a>
               </li>
             </ul>
             <div class="success">Thanks for signing up!</div>
-          </form>
+            <div class="fail">You must first agree to the code of conduct above.</div>
+
+          </div>
 
           <ul class="contact">
             <li class="fa-home">
@@ -210,23 +153,15 @@
       <script src="assets/js/main.js"></script>
 
       <script>
-        $('#signupForm').submit(function(e) {
-          e.preventDefault();
-          var actionurl = e.currentTarget.action;
-          $.ajax({
-            url: actionurl,
-            type: 'post',
-            data: $('#signupForm').serialize(),
-            success: function(data) {
-              $('.success').addClass('active');
-              $('#signupForm').unbind('submit');
-              $('#signupForm').submit(function(e) {
-                e.preventDefault();
-              });
-            }
-          });
+        $('#continue').click(function(e){
+          if(!$('#codeOfConduct').is(':checked')){
+            // If they haven't accepted the code of conduct, don't navigate
+            e.preventDefault();
+            $('.fail').addClass('active');
+          }
         });
       </script>
+
 </body>
 
 </html>

@@ -19,7 +19,7 @@
 				width: 100%;
 			}
 
-			form {
+			form, #form {
 				margin: 0 _size(section-spacing, large) 0 0;
 				width: calc(50% - #{_size(section-spacing, large) * 0.5});
 			}
