@@ -153,6 +153,10 @@
       <script src="assets/js/main.js"></script>
 
       <script>
+        $(function(){
+          window.location.hash = '';
+        });
+
         $('#continue').click(function(e){
           if(!$('#codeOfConduct').is(':checked')){
             // If they haven't accepted the code of conduct, don't navigate
