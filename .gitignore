@@ -6,3 +6,5 @@ assets/css/ie9.css
 assets/css/ie9.css.map
 assets/.sass-cache/
 signups.txt
+.sass-cache
+nohup.out
