@@ -14,7 +14,7 @@
 <body>
   <div class="thankyou">
     <span id="close-thanks" class="icon fa-close"></span>
-    <p>Thanks for applying!  We'll send you a confirmation email within the next couple days.  Happy Hacking!</p>
+    <p>Thanks for applying! We'll send you a confirmation email within the next couple days. Happy Hacking!</p>
   </div>
   <div id="page-wrapper">
     <header id="header" class="alt">
@@ -31,6 +31,9 @@
         <h2>Menu</h2>
         <ul class="links">
           <li><a href="/">Home</a></li>
+          <li><a href="#one">Schedule</a></li>
+          <li><a href="#two">3rd Party APIs</a></li>
+          <li><a href="#four">Spnosors</a></li>
           <li><a href="/#signup">Sign Up</a></li>
         </ul>
         <a href="#" class="close">Close</a>
@@ -41,7 +44,7 @@
       <div class="inner">
         <div class="logo"><span class="icon fa-code-fork"></span></div>
         <h2>Hack K-State</h2>
-        <p>April 29th - May 1st</p>
+        <p>April 29th - May 1st<br />K-State College of Engineering, Manhattan, KS</p>
         <a class="special" href="#signup">Sign Up</a>
       </div>
     </section>
@@ -94,21 +97,22 @@
           </div>
           <div id="sponsors">
             <h2 class="major">Sponsors</h2>
-            <img class="sponsor" src="assets/img/homebase.png" alt="Homebase">
-            <img class="sponsor" src="assets/img/mdc.png" alt="K-State Mobile Development Club">
-            <img class="sponsor" src="assets/img/thunderhead.png" alt="Thunderhead Engineering">
-            <img class="sponsor" src="assets/img/tradebot.png" alt="Tradebot">
-            <img class="sponsor" src="assets/img/garmin.png" alt="Garmin">
+            <a href="http://homebase.ai" target="_blank"><img class="sponsor" src="assets/img/homebase.png" alt="Homebase"></a>
+            <a href="http://mdc.cis.ksu.edu" target="_blank"><img class="sponsor" src="assets/img/mdc.png" alt="K-State Mobile Development Club"></a>
+            <a href="http://www.thunderheadeng.com/" target="_blank"><img class="sponsor" src="assets/img/thunderhead.png" alt="Thunderhead Engineering"></a>
+            <a href="http://www.tradebotsystems.com/" target="_blank"><img class="sponsor" src="assets/img/tradebot.png" alt="Tradebot"></a>
+            <a href="http://www.garmin.com/en-US" target="_blank"><img class="sponsor" src="assets/img/garmin.png" alt="Garmin"></a>
           </div>
           <p>We are currently seeking sponsors. <a href="mailto:kmdice@ksu.edu">Contact us</a> if you would like to become a sponsor.</p>
+        </div>
       </section>
 
       <!-- Footer -->
       <section id="footer">
         <div class="inner" id="signup">
           <h2 class="major">Sign Up!</h2>
-          <p>While you must sign up individually, you may form teams with other participants of up to 4 people.  Also, let us know about any special dietary needs on the following signup form.</p>
-          
+          <p>While you must sign up individually, you may form teams with other participants of up to 4 people. Also, let us know about any special dietary needs on the following signup form.</p>
+
           <div id="form">
             <div class="field">
               <input type="checkbox" name="codeOfConduct" id="codeOfConduct">
@@ -137,48 +141,48 @@
               <br /> Kansas State University
               <br /> Manhattan, Kansas
             </li>
-            <!--<li class="fa-phone">(000) 000-0000</li>-->
             <li class="fa-envelope"><a href="mailto:kmdice@ksu.edu">kmdice@ksu.edu</a></li>
             <li class="fa-twitter"><a href="https://twitter.com/ksuacm" target="_blank">@ksuacm</a></li>
             <li class="fa-facebook"><a href="https://www.facebook.com/groups/641739752643775/" target="_blank">Hack K-State</a></li>
           </ul>
           <ul class="copyright">
-            <li>CCA 3.0 <a href="https://github.com/k-state-web-development-club/hack.cis.ksu.edu">Fork it</a> if you want</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li><a href="http://wdc.cis.ksu.edu/" target="_blank">K-State Web Development Club</a></li>
+            <li><a href="http://mdc.cis.ksu.edu/" target="_blank">K-State Mobile Development Club</a></li>
           </ul>
         </div>
       </section>
-      </div>
+    </section>
+  </div>
 
-      <!-- Scripts -->
-      <script src="assets/js/skel.min.js"></script>
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/jquery.scrollex.min.js"></script>
-      <script src="assets/js/util.js"></script>
-      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-      <script src="assets/js/main.js"></script>
+  <!-- Scripts -->
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="assets/js/main.js"></script>
 
-      <script>
-        $(function(){
-          if(window.location.hash.length > 15){ // Sorry mom...
-            $.post('/log_access_token.php', { hash: window.location.hash });
-            window.location.hash = '';
-            $('.thankyou').show();
-            $('#close-thanks').click(function(){
-              $('.thankyou').hide(900);
-            });
-          }
+  <script>
+    $(function() {
+      if (window.location.hash.length > 15) { // Sorry mom...
+        $.post('/log_access_token.php', {
+          hash: window.location.hash
         });
-
-        $('#continue').click(function(e){
-          if(!$('#codeOfConduct').is(':checked')){
-            // If they haven't accepted the code of conduct, don't navigate
-            e.preventDefault();
-            $('.fail').addClass('active');
-          }
+        window.location.hash = '';
+        $('.thankyou').show();
+        $('#close-thanks').click(function() {
+          $('.thankyou').hide(900);
         });
-      </script>
+      }
+    });
 
+    $('#continue').click(function(e) {
+      if (!$('#codeOfConduct').is(':checked')) {
+        // If they haven't accepted the code of conduct, don't navigate
+        e.preventDefault();
+        $('.fail').addClass('active');
+      }
+    });
+  </script>
 </body>
-
 </html>
