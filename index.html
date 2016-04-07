@@ -34,7 +34,7 @@
         <ul class="links">
           <li><a href="/">Home</a></li>
           <li><a href="#one">Schedule</a></li>
-          <li><a href="#two">3rd Party APIs</a></li>
+          <li><a href="#two">FAQ</a></li>
           <li><a href="#four">Spnosors</a></li>
           <li><a href="/#signup">Sign Up</a></li>
         </ul>
@@ -68,10 +68,35 @@
       <!-- Two -->
       <section id="two" class="wrapper alt spotlight style2">
         <div class="inner">
-          <a href="#" class="image"><img src="images/api.png" alt="" /></a>
+          <a href="#" class="image"><img src="images/faq.png" alt="" /></a>
           <div class="content">
-            <h2 class="major">3rd Party APIs</h2>
-            <p>We have a collection of 3rd party API<small style="font-size: 0.7em;">s</small> for you to use. Whether you want to text your users or do something with geolocation, we've got you covered. Stay tuned for a full list of available APIs.</p>
+            <h2 class="major">Frequently Asked Questions</h2>
+            <dl>
+              <dt>What is a hackathon?</dt>
+              <dd>At it's simplest, a hackathon is an event where programmers meet to collaborate on programming projects.  The word "hackathon" is a portmanteau of the words "hack" and "marathon".  Please note that Hack K-State hacking will be of the <a href="https://en.wikipedia.org/wiki/Hacker_culture">awesome</a> variety, not the <a href="https://en.wikipedia.org/wiki/Hacker_(computer_security)">evil variety</a>.  Students interested in learning how to create and develop with code are welcome!  Parents interested in learning how to log into their children's Facebook accounts need not apply.</dd>
+
+              <dt>Who's eligible to compete?</dt>
+              <dd>Current students, high school through grad school, and those who have graduated in the past 12 months.</dd>
+
+              <dt>How much does it cost?</dt>
+              <dd>Free for participants, our event is supported by companies who want to hire you. :)</dd>
+
+              <dt>But I don't know how to make anything.</dt>
+              <dd>Hackathons are a great way to learn!  We'll have mentors available to help point you in the right direction.  You've got nothing to lose, so come and hack with us.</dd>
+
+              <dt>What about sleep?</dt>
+              <dd>While we will have plenty of coffee, those of us who choose to sleep can do so in our designated quiet area.</dd>
+
+              <dt>Will there be prizes?</dt>
+              <dd>Yes.</dd>
+
+              <dt>Will I need to bring my own laptop?</dt>
+              <dd>Yes, preferably; however, we will have CIS department computer lab machines available and a limited number of laptops to check out.  You'll have the best luck bringing your own device, configured just the way you like.</dd>
+
+              <dt>How do I sign up?</dt>
+              <dd>The signup form is in the footer of this page.  Check out our sponsors on your way there.  They're awesome.</dd>
+
+            </dl>
             <!--<a href="#" class="special">Learn more</a>-->
           </div>
         </div>
@@ -183,6 +208,14 @@
         e.preventDefault();
         $('.fail').addClass('active');
       }
+    });
+
+
+    // smooth scroll
+    $('a').click(function(){
+      $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+      }, 500);
     });
   </script>
 </body>
