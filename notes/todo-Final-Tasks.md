@@ -11,7 +11,7 @@
 - [ ] Create Competitors packet with info like APIs/available rooms/safety procedures
 - [ ] Finalize volenteer schedule
 - [ ] Send email reminders
-  - [ ] Competitors - Directions about when/where to report
+  - [ ] Competitors - Directions about when/where to report ; include forms as an option to fill out ahead of time
   - [ ] Sponsors - Directions about when/where to report. Should arrive before competitors
   - [ ] Volunteers - Confirm designated duties; when/where to report
   - [ ] Judges = when/where to report
