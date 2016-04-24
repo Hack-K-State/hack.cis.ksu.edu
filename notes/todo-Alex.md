@@ -1,5 +1,5 @@
 # Tasks for Alex
 
-- [ ] MDC Logo
-- [ ] Hackathon Poster/Digital Signage 
-- [ ] MDC Open House Poster
+- [x] MDC Logo
+- [x] Hackathon Poster/Digital Signage 
+- [x] MDC Open House Poster

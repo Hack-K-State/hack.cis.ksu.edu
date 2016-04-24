@@ -16,8 +16,8 @@
 - [x] Upload that PDF to the MLH Organizer Dashboard
 - [x] Also, add that PDF to the Github repo for the website, and make the "Learn More" link on the website point to that PDF.
 
-## Departmental Promotion (Blocked by Signup progress)
-- [ ] Create email to send to the department 
+## Departmental Promotion
+- [x] Create email to send to the department 
 - [ ] Create and send out volunteer list
 - [ ] Talk to Classes 
 
@@ -25,5 +25,5 @@
 - [ ] Confirm MDC COE Funding
 - [ ] Complete ( and frequently update ) Devpost page
 - [ ] Reserve whiteboards
-- [ ] Order MDC Sponsored Prizes
+- [x] Order MDC Sponsored Prizes
 
