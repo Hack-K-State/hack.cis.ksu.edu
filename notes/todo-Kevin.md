@@ -6,9 +6,9 @@
 
 ## Website/Signup
 
-- [ ] Work with the creator of Nucleus to get our instance up and running
+- [ ] (Not happening) Work with the creator of Nucleus to get our instance up and running
 - [x] Contact Seth et. al. to have the DNS pointed at the Nucleus server.
-- [ ] Get logos from all sponsors
+- [x] Get logos from all sponsors
   - [x] Tradebot
   - [x] Thunderhead
   - [x] Homebase
