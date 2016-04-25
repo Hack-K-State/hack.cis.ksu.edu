@@ -23,18 +23,23 @@
 
 .sponsor {
   display: inline-block;
-  margin: 20px;
-  max-height: 150px;
-  max-width: 350px;
+  margin: 25px;
+  max-height: 90px;
+  max-width: 300px;
+  vertical-align: middle;
+}
+
+.t2 {
+  max-height: 200px;
 }
 
 @media screen and (max-width: 736px) {
-  .partner {
-    max-width: 100%;
-  }
+.partner, .sponsor {
+  max-width: 100%;
+}
 
-  .sponsor {
-    max-width: 100%;
-    margin: 20px 0 20px 0;
-  }
+.sponsor {
+  display: block;
+  margin: 25px auto;
+}
 }
