@@ -2,6 +2,7 @@
 
 ## ASAP
 
+- [ ] Order Prizes 
 - [ ] Get tax forms from Charlotte/ACM (Only KSU winners will need to fill out)
 - [ ] Define the sleeping rooms
 - [ ] Print Nametags
