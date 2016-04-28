@@ -4,7 +4,7 @@
 
 - [x] Order Prizes 
 - [x] Get tax forms from Charlotte/ACM (Only KSU winners will need to fill out)
-- [ ] Define the sleeping rooms
+- [x] Define the sleeping rooms
 - [ ] Print Nametags (Alex)
 - [ ] Print Permission Forms
 - [ ] Create company Slack channels, and invite company employees
@@ -12,7 +12,7 @@
 - [ ] Create Competitors packet with info like APIs/available rooms/safety procedures/Equipment protocol and checkout (AJ)
 - [ ] Finalize volenteer schedule
 - [ ] Send email reminders
-  - [ ] Competitors - Directions about when/where to report ; include forms as an option to fill out ahead of time
+  - [x] Competitors - Directions about when/where to report ; include forms as an option to fill out ahead of time
   - [ ] Sponsors - Directions about when/where to report. Should arrive before competitors. We also need to create Slack channels and invite sponsors
   - [ ] Volunteers - Confirm designated duties; when/where to report
   - [ ] Judges = when/where to report
