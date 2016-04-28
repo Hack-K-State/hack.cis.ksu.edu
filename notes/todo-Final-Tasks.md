@@ -7,7 +7,7 @@
 - [x] Define the sleeping rooms
 - [ ] Print Nametags (Alex)
 - [ ] Print Permission Forms
-- [ ] Create company Slack channels, and invite company employees
+- [x] Create company Slack channels, and invite company employees
 - [x] Create Opening ceremony presentation
 - [ ] Create Competitors packet with info like APIs/available rooms/safety procedures/Equipment protocol and checkout (AJ)
 - [ ] Finalize volenteer schedule
