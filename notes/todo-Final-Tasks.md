@@ -17,7 +17,8 @@
   - [ ] Volunteers - Confirm designated duties; when/where to report
   - [ ] Judges = when/where to report
 - [ ] Do a live Run through
-
+- [ ] Investigate yoga mats
+- [ ] Get Bedding
 ## Friday
 
 - [ ] Brief Volunteers
