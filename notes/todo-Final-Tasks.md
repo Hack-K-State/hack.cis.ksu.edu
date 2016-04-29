@@ -16,11 +16,11 @@
   - [x] Sponsors - Directions about when/where to report. Should arrive before competitors. We also need to create Slack channels and invite sponsors
   - [ ] Volunteers - Confirm designated duties; when/where to report
   - [x] Judges = when/where to report
-- [ ] Do a live Run through
-- [ ] Investigate yoga mats
-- [ ] Get Bedding
+- [x] Do a live Run through
+- [x] Investigate yoga mats
+- [x] Get Bedding
 - [ ] Create and print Judging sheets for general theme
-- [ ] Buy soda, and various drinks
+- [x] Buy soda, and various drinks
 
 ## Friday
 
