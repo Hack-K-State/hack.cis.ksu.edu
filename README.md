@@ -22,3 +22,4 @@ Run the shell script in `assets/compile_scss.sh`
 		Misc. Sass functions (@HugoGiraudel)
 		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
+	Template: HTML5up
