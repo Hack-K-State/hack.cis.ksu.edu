@@ -178,28 +178,6 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    $(function() {
-      if (window.location.hash.length > 15) { // Sorry mom...
-        $.post('/log_access_token.php', {
-          hash: window.location.hash
-        });
-        window.location.hash = '';
-        $('.thankyou').show();
-        $('#close-thanks').click(function() {
-          $('.thankyou').hide(900);
-        });
-      }
-    });
-
-    $('#continue').click(function(e) {
-      if (!$('#codeOfConduct').is(':checked')) {
-        // If they haven't accepted the code of conduct, don't navigate
-        e.preventDefault();
-        $('.fail').addClass('active');
-      }
-    });
-
-
     // smooth scroll
     $('a').click(function(){
       $('html, body').animate({
