@@ -8,3 +8,4 @@ assets/.sass-cache/
 signups.txt
 .sass-cache
 nohup.out
+*.DS_Store
