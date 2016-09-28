@@ -1,13 +1,3 @@
-#partners {
-  margin-bottom: 150px;
-}
-
-.partner {
-  display: block;
-  margin: 50px auto;
-  max-height: 250px;
-}
-
 #sponsors {
   margin-bottom: 50px;
   text-align: center;
@@ -21,24 +11,51 @@
   border-bottom: none;
 }
 
-.sponsor {
+#sponsors div img {
   display: inline-block;
   margin: 25px;
-  max-height: 90px;
+  max-height: 300px;
   max-width: 300px;
   vertical-align: middle;
 }
 
-.t2 {
-  max-height: 200px;
+.bit {
+  margin-bottom: -15px;
+}
+
+.sixtyfourbit img {
+  max-height: 150px;
+}
+
+.thirtytwobit img {
+  max-height: 125px;
+}
+
+.sixteenbit img {
+  max-height: 75px;
+}
+
+.eightbit img {
+  max-height: 50px;
+}
+
+#partners {
+  margin-bottom: 150px;
+}
+
+.partner {
+  display: block;
+  margin: 50px auto;
+  max-height: 350px;
+  max-width: 350px;
 }
 
 @media screen and (max-width: 736px) {
-.partner, .sponsor {
+.partner, #sponsors div img {
   max-width: 100%;
 }
 
-.sponsor {
+#sponsors div img {
   display: block;
   margin: 25px auto;
 }
