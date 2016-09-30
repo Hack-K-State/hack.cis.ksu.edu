@@ -1,20 +1,24 @@
-#sponsors {
+#sponsors, #partners {
   margin-bottom: 50px;
   text-align: center;
 }
 
-#sponsors h2 {
+#partners {
+  margin-bottom: 150px;
+}
+
+#sponsors h2, #partners h2 {
   text-align: left;
 }
 
-#sponsors a {
+#sponsors a, #partners a {
   border-bottom: none;
 }
 
-#sponsors div img {
+#sponsors div a img, #partners a img {
   display: inline-block;
   margin: 25px;
-  max-height: 300px;
+  max-height: 200px;
   max-width: 300px;
   vertical-align: middle;
 }
@@ -39,24 +43,18 @@
   max-height: 50px;
 }
 
-#partners {
-  margin-bottom: 150px;
-}
-
-.partner {
-  display: block;
-  margin: 50px auto;
-  max-height: 350px;
-  max-width: 350px;
+.kstate {
+  max-width: 500px !important;
 }
 
 @media screen and (max-width: 736px) {
-.partner, #sponsors div img {
+#sponsors div a img, #partners a img {
+  display: block;
+  margin: 50px auto;
   max-width: 100%;
 }
 
-#sponsors div img {
-  display: block;
-  margin: 25px auto;
+#form a {
+  margin-bottom: 15px !important;
 }
 }
