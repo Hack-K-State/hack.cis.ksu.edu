@@ -48,10 +48,10 @@
 }
 
 @media screen and (max-width: 736px) {
-#sponsors div a img, #partners a img {
+#sponsors div a img, #partners a img, .kstate {
   display: block;
   margin: 50px auto;
-  max-width: 100%;
+  max-width: 100% !important;
 }
 
 #form a {
