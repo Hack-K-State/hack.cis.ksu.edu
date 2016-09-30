@@ -28,23 +28,23 @@
 }
 
 .sixtyfourbit img {
-  max-height: 150px;
+  max-height: 150px !important;
 }
 
 .thirtytwobit img {
-  max-height: 125px;
+  max-height: 125px !important;
 }
 
 .sixteenbit img {
-  max-height: 75px;
+  max-height: 75px !important;
 }
 
 .eightbit img {
-  max-height: 50px;
+  max-height: 50px !important;
 }
 
 .kstate {
-  max-width: 500px !important;
+  max-width: 400px !important;
 }
 
 @media screen and (max-width: 736px) {
