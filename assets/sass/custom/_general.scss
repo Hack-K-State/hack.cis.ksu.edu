@@ -23,6 +23,10 @@
   vertical-align: middle;
 }
 
+#partners a img {
+  max-height: 150px;
+}
+
 .bit {
   margin-bottom: -15px;
 }
@@ -33,6 +37,7 @@
 
 .thirtytwobit img {
   max-height: 125px !important;
+  max-width: 275px !important;
 }
 
 .sixteenbit img {
@@ -40,7 +45,7 @@
 }
 
 .eightbit img {
-  max-height: 50px !important;
+  max-height: 60px !important;
 }
 
 .kstate {
